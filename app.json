@@ -1,0 +1,19 @@
+{
+    "name": "toxicccBot",    
+    "env": {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },        
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        }
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
+        }
+    ]
+}
